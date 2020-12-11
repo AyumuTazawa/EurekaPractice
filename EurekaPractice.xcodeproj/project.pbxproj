@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63498CEC2583286100DE7468 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63498CEB2583286100DE7468 /* AppDelegate.swift */; };
+		63498CEE2583286100DE7468 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63498CED2583286100DE7468 /* SceneDelegate.swift */; };
+		63498CF02583286100DE7468 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63498CEF2583286100DE7468 /* ViewController.swift */; };
+		63498CF32583286100DE7468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63498CF12583286100DE7468 /* Main.storyboard */; };
+		63498CF62583286100DE7468 /* EurekaPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63498CF42583286100DE7468 /* EurekaPractice.xcdatamodeld */; };
+		63498CF82583286400DE7468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63498CF72583286400DE7468 /* Assets.xcassets */; };
+		63498CFB2583286400DE7468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63498CF92583286400DE7468 /* LaunchScreen.storyboard */; };
+		63498D0325832A5F00DE7468 /* MyFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63498D0225832A5F00DE7468 /* MyFormViewController.swift */; };
+		CBE07B51D733205DD8499316 /* Pods_EurekaPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77E80AAE94851A6C241BC2D /* Pods_EurekaPractice.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2910FBF2B86D94953FB8B7B3 /* Pods-EurekaPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaPractice.debug.xcconfig"; path = "Target Support Files/Pods-EurekaPractice/Pods-EurekaPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		4C85C63D198BD405B596D096 /* Pods-EurekaPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaPractice.release.xcconfig"; path = "Target Support Files/Pods-EurekaPractice/Pods-EurekaPractice.release.xcconfig"; sourceTree = "<group>"; };
+		63498CE82583286100DE7468 /* EurekaPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EurekaPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63498CEB2583286100DE7468 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63498CED2583286100DE7468 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63498CEF2583286100DE7468 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63498CF22583286100DE7468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63498CF52583286100DE7468 /* EurekaPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EurekaPractice.xcdatamodel; sourceTree = "<group>"; };
+		63498CF72583286400DE7468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63498CFA2583286400DE7468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63498CFC2583286400DE7468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63498D0225832A5F00DE7468 /* MyFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFormViewController.swift; sourceTree = "<group>"; };
+		C77E80AAE94851A6C241BC2D /* Pods_EurekaPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63498CE52583286100DE7468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE07B51D733205DD8499316 /* Pods_EurekaPractice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63498CDF2583286100DE7468 = {
+			isa = PBXGroup;
+			children = (
+				63498CEA2583286100DE7468 /* EurekaPractice */,
+				63498CE92583286100DE7468 /* Products */,
+				AC00C69ED66D7031DEE2EB57 /* Pods */,
+				CCBF8E12B015FC9E443D3219 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63498CE92583286100DE7468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63498CE82583286100DE7468 /* EurekaPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63498CEA2583286100DE7468 /* EurekaPractice */ = {
+			isa = PBXGroup;
+			children = (
+				63498CEB2583286100DE7468 /* AppDelegate.swift */,
+				63498CED2583286100DE7468 /* SceneDelegate.swift */,
+				63498CEF2583286100DE7468 /* ViewController.swift */,
+				63498D0225832A5F00DE7468 /* MyFormViewController.swift */,
+				63498CF12583286100DE7468 /* Main.storyboard */,
+				63498CF72583286400DE7468 /* Assets.xcassets */,
+				63498CF92583286400DE7468 /* LaunchScreen.storyboard */,
+				63498CFC2583286400DE7468 /* Info.plist */,
+				63498CF42583286100DE7468 /* EurekaPractice.xcdatamodeld */,
+			);
+			path = EurekaPractice;
+			sourceTree = "<group>";
+		};
+		AC00C69ED66D7031DEE2EB57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2910FBF2B86D94953FB8B7B3 /* Pods-EurekaPractice.debug.xcconfig */,
+				4C85C63D198BD405B596D096 /* Pods-EurekaPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CCBF8E12B015FC9E443D3219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C77E80AAE94851A6C241BC2D /* Pods_EurekaPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63498CE72583286100DE7468 /* EurekaPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63498CFF2583286400DE7468 /* Build configuration list for PBXNativeTarget "EurekaPractice" */;
+			buildPhases = (
+				2A9D4EEE74EB01709789B5CA /* [CP] Check Pods Manifest.lock */,
+				63498CE42583286100DE7468 /* Sources */,
+				63498CE52583286100DE7468 /* Frameworks */,
+				63498CE62583286100DE7468 /* Resources */,
+				B894A49647015812BD9BF8AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EurekaPractice;
+			productName = EurekaPractice;
+			productReference = 63498CE82583286100DE7468 /* EurekaPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63498CE02583286100DE7468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = net.ayumutazawa;
+				TargetAttributes = {
+					63498CE72583286100DE7468 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 63498CE32583286100DE7468 /* Build configuration list for PBXProject "EurekaPractice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63498CDF2583286100DE7468;
+			productRefGroup = 63498CE92583286100DE7468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63498CE72583286100DE7468 /* EurekaPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63498CE62583286100DE7468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63498CFB2583286400DE7468 /* LaunchScreen.storyboard in Resources */,
+				63498CF82583286400DE7468 /* Assets.xcassets in Resources */,
+				63498CF32583286100DE7468 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A9D4EEE74EB01709789B5CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EurekaPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B894A49647015812BD9BF8AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EurekaPractice/Pods-EurekaPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EurekaPractice/Pods-EurekaPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EurekaPractice/Pods-EurekaPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63498CE42583286100DE7468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63498CF02583286100DE7468 /* ViewController.swift in Sources */,
+				63498CEC2583286100DE7468 /* AppDelegate.swift in Sources */,
+				63498D0325832A5F00DE7468 /* MyFormViewController.swift in Sources */,
+				63498CEE2583286100DE7468 /* SceneDelegate.swift in Sources */,
+				63498CF62583286100DE7468 /* EurekaPractice.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63498CF12583286100DE7468 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63498CF22583286100DE7468 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63498CF92583286400DE7468 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63498CFA2583286400DE7468 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63498CFD2583286400DE7468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63498CFE2583286400DE7468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63498D002583286400DE7468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2910FBF2B86D94953FB8B7B3 /* Pods-EurekaPractice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F53DA3D67;
+				INFOPLIST_FILE = EurekaPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.ayumutazawa.EurekaPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63498D012583286400DE7468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C85C63D198BD405B596D096 /* Pods-EurekaPractice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F53DA3D67;
+				INFOPLIST_FILE = EurekaPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.ayumutazawa.EurekaPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63498CE32583286100DE7468 /* Build configuration list for PBXProject "EurekaPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63498CFD2583286400DE7468 /* Debug */,
+				63498CFE2583286400DE7468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63498CFF2583286400DE7468 /* Build configuration list for PBXNativeTarget "EurekaPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63498D002583286400DE7468 /* Debug */,
+				63498D012583286400DE7468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		63498CF42583286100DE7468 /* EurekaPractice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63498CF52583286100DE7468 /* EurekaPractice.xcdatamodel */,
+			);
+			currentVersion = 63498CF52583286100DE7468 /* EurekaPractice.xcdatamodel */;
+			path = EurekaPractice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63498CE02583286100DE7468 /* Project object */;
+}
